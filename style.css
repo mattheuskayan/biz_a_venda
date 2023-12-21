@@ -7,65 +7,71 @@
 }
 
 body{
-    background-color: black;
+    background-color: #fff;
     max-width: 980px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fa-solid.fa-road {
+    color: brown;
 }
 
 h1 {
-    color: #fff;
-    padding: 1cm;
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
-}
-h2{
-    color: #fff;
-    padding: 1cm;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-}
-.detalhes {
+    margin: 0.5cm;
+    padding: 0.5cm;
+    color: black;
+    font-size: 30px;
     position: relative;
-    bottom: 2cm;
 }
 
-p {
-    color: #fff;
-    padding: 1cm;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+span {
+    color: #858585;
+    font-size: 12px;
+    font-weight: 100;
     position: relative;
-    bottom: 1.8cm;
+    bottom: 0.12cm;
+    left: 0.2cm;
+}
+div.image {
+    padding: 1cm;
 }
 img {
     width: 365px;
-    padding: 1cm;
+    padding: 0 1cm 0 0;
 }
-.foto1 {
+
+h2.titulo1 {
+    color: black;
+    font-weight: 500;
+    font-size: 26px;
     position: relative;
-    bottom: 1.5cm;
+    top: 0.40cm;
 }
-.foto2 {
-    position: relative;
-    bottom: 1.5cm;
+div.detalhes {
+    padding: 0 1cm;
+}
+p.ano {
+    color:#858585
+}
+span.doiseis {
+    color: black;
+    font-size: 16px;
+
 }
 
 .contato {
-    position: relative;
-    bottom: 4.5cm;
-    height: 10px;
+    padding: 1cm;    
 }
 
 .fa-brands.fa-whatsapp {
     padding: 1cm;
     font-size: 25px;
     color: green;
-    position: relative;
-    bottom: 1.8cm;
-}
+    
 .number {
     padding: 1cm;
     font-family: 'Poppins', sans-serif;
-    color: #fff;
+    color: black;
     position: relative;
     bottom: 3.47cm;
     left: 0.8cm;
@@ -75,7 +81,7 @@ h3 {
     padding-left: 1cm;
     padding-top: 0.8cm;
     font-size: 16px;
-    color: #ccc;
+    color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 8px;
 }
