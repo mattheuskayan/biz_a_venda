@@ -11,8 +11,6 @@ body{
     max-width: 980px;
     font-family: 'Poppins', sans-serif;
 }
-
-
 .fa-solid.fa-road {
     color: brown;
 }
@@ -51,6 +49,10 @@ div.h2 h2 {
 img {
     width: 365px;
     padding: 0 1cm 0 0;
+}
+
+p.descri {
+    text-align: justify;
 }
 /* ===============================================================DETALHES */
 
