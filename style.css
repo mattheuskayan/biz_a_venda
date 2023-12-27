@@ -8,7 +8,7 @@
 
 body{
     background-color: #fff;
-    max-width: 980px;
+    max-width: 1000px;
     font-family: 'Poppins', sans-serif;
 }
 .fa-solid.fa-road {
@@ -23,6 +23,7 @@ h1 {
 }
 
 span.h1 {
+    padding: 0;
     color: #858585;
     font-size: 10px;
     font-weight: 100;
@@ -84,13 +85,15 @@ article.preco p {
     font-size: 22px;
 }
 /* ===============================================================CONTATO */
+
 div.contato {
-    display: flex;
-    flex-wrap: wrap;
+    display:flex;
     justify-content: space-between;
+    align-items: center;
     width: 1349px;
     background-color: rgb(113, 32, 32);
-    padding: 1cm 2cm;    
+    padding: 1cm 2cm; 
+    margin: 0; 
 }
 .contato h2 {
     color: #fff;
@@ -101,26 +104,34 @@ div.contato {
     font-size: 25px;
     color: #fff;
     position: relative;
-    top: 0.5cm;
+    top: 0.2cm;
 }
     
 .number {
     font-family: 'Poppins', sans-serif;
     color: #fff;
     position: relative;
-    top: 0.4cm;
+    top: 0.1cm;
 }
-article.venda h1 {
+div.venda h1 {
+    padding: 0;
     color: #fff;
-    text-align: center;
+    position: relative;
+    left: 1.5cm;
 }
 
 h3 {
     font-weight: 500;
-    font-size: 9px;
+    font-size: 12px;
     color: #858585;
     position: relative;
-    top: 0.89cm;
 }
 
+a.name {
+    color: #858585;
+}
+
+
+/* Media query para dispositivos móveis */
+ 
 
