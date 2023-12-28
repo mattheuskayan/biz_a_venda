@@ -46,6 +46,17 @@ span {
     font-size: 14px;
 }
 
+.preco {
+    padding-left: 0.3cm;
+    background: #969696;
+    width: 5.3cm;
+}
+
+.s1 {
+    color: rgb(48, 48, 48);
+    font-size: 12px;
+}
+
 .contato {
     padding: 1cm;
     background: #969696;
