@@ -1,93 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,300italic,400,400italic,600,700);
 
 body{
-    background-color: black;
-    max-width: 375px;
-    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    font-family: "Open Sans";
+    margin: 0;
 }
 
-h1 {
-    color: #fff;
-    position: relative; bottom: 0.15cm;
-    padding: 1cm 1cm 0 0.8cm;
-    font-size: 25px;
-    font-weight: 100;
+.bloco1 {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    height: 60px;
 }
 
-img {
-    width: 345px;
-    padding-left: 0.85cm;
-    padding-bottom: 0.5cm;
+.title1 {
+    color: yellow;
+    font-size: 30px;
+    margin: 7.5px;
 }
 
-.detalhes {
-    padding: 0.3cm 1cm 1cm 1cm;
+.bloco2 {
+    display: flex;
+    justify-content: center;
 }
 
-.p1{
-    color: #fff;
-    font-weight: 500;
+.title2 {
+    color:#505050;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 25px 0 5px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;    
+}
+
+.foto1, .foto2 {
+    width: 300px;
+    margin: auto;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px auto;
+}
+.desc {
+    color: #505050;
+    margin: 5px 0 5px 0;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.parag {
+    color: #505050;
+    font-size: 18px;
     text-align: justify;
 }
 
-.p2 {
+.detal {
+    background-color: brown ;
+    display: flex;
+    margin: 15px 100px 0 100px;
+    border-radius: 5px;
+}
+
+.parag1 {
     color: #fff;
-    padding-top: 0.9cm;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px;
 }
-span {
-    color: #969696;
-    font-size: 14px;
-}
-
 .preco {
-    padding-left: 0.3cm;
-    background: #969696;
-    width: 5.3cm;
+    background-color: #aaa;
+    display: flex;
+    justify-content: center;
+    margin: 20px 220px 0 220px;
+    border-radius: 5px;
 }
-
-.s1 {
-    color: rgb(48, 48, 48);
-    font-size: 12px;
-}
-
-.contato {
-    padding: 1cm;
-    background: #969696;
-}
-h2 {
-    color: black;
-    font-size: 20px;
-    position: relative;
-    bottom: 0.5cm;
-}
-
-.fa-brands.fa-whatsapp {
-    font-size: 25px;
-    color: black;
-    position: relative;
-    bottom: 0.23cm;  
-}
-.number {
-    color: black;
-    position: relative;
-    bottom: 0.3cm;  
-}
-
-h3 {
-    position: relative;
-    top: 0.7cm;
-    left: 1cm;
-    font-weight: 100;
-    font-size: 10px;
-    color: black;
-}
-.name {
-    color: rgb(0, 0, 39);
+.pre1 {
+    color: #121212;
+    font-weight: 550;
+    padding: 5px;
 }
