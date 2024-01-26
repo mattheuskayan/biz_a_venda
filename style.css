@@ -129,9 +129,9 @@ body{
 
 /* Responsividade Para Mobile */
 
-@media (max-width: 375px) {
+@media (min-width: 300px) {
 
-    .descricao {
+    .descricao { 
         margin: 30px;      
     }
   
