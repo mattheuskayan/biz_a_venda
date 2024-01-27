@@ -129,9 +129,6 @@ body{
 
 /* Responsividade Para Mobile */
 
-<<<<<<< HEAD
-@media (min-width: 300px) {
-=======
 @media (max-width: 299px) {
 
     .descricao {
@@ -152,7 +149,6 @@ body{
 }
 
 @media (max-width: 1200px) {
->>>>>>> new_main
 
     .descricao { 
         margin: 30px;      
