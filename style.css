@@ -7,7 +7,7 @@ body{
 }
 
 .bloco1 {
-    background-color: brown;
+    background: brown;
     display: flex;
     justify-content: center;
     height: 80px;
@@ -118,18 +118,18 @@ body{
     justify-content: center;
     background-color: brown;
     margin: 50px 0 auto;
-    height: 30px;
+    height: 50px;
 }
 
 .foo1, .name{
-    color: #707070;
-    font-size: 10px;
-    padding-top: 7.5px;
+    color: hsl(0, 0%, 85%);
+    font-size: 11.5px;
+    padding-top: 16px;
 }
 
 /* Responsividade Para Mobile */
 
-@media (max-width: 375px) {
+@media (max-width: 299px) {
 
     .descricao {
         margin: 30px;      
@@ -148,6 +148,24 @@ body{
     }
 }
 
+@media (max-width: 1200px) {
+
+    .descricao {
+        margin: 30px;      
+    }
+  
+    .detal {
+      margin: 0 35px 30px 35px;
+    }
+
+    .parag1 {
+        font-size: 12.95px;
+    }
+
+    .preco {
+        margin: 0 75px 40px 75px;
+    }
+}
 
 
 
