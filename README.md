@@ -18,7 +18,7 @@ Eu mesmo😁
 
 
 ## 🚀 Sobre mim
-Sou graduando em ADS e estudante de Dev Front-End, atualmente estou fora do mercado e trabalhando no segmento da Contabilidade. Como objetivo, quero dominar o maximo de Tecnologia e aplica seus conceitos na resolução de problemas. Dentre os meus interesses hoje, vejo a Programação como uma área indispensável, como também a área de Dados e Cibersegurança.  
+Sou graduando em ADS e estudante de Dev Front-End, atualmente estou fora do mercado e trabalhando no segmento da Contabilidade. Como objetivo, pretendo dominar o maximo da Tecnologia e aplica seus conceitos na resolução de problemas. Dentre os meus interesses hoje, vejo a Programação como uma área indispensável, como também a área de Dados e Cibersegurança.  
 
 ## Aprendizados
 
