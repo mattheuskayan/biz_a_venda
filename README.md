@@ -1,6 +1,6 @@
 # Moto a Venda
 
- Projeto simples criado para facil manipulação de anuncio Objetivo? vender minha moto rsrs. Após conclusão possivelmente o projeto será removido.
+ Projeto simples criado para facil manipulação de anuncio. Objetivo? vender minha moto rsrs. Após conclusão possivelmente o projeto será removido.
 
 
 ## Autor
